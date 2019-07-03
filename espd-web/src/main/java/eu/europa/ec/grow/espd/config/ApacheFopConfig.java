@@ -75,6 +75,8 @@ class ApacheFopConfig {
 					.build(resourceLoader.getResource(espdConfiguration.getFopXmlConfigurationLocation())
 					                     .getInputStream());
 			URI defaultBaseURI = buildDefaultBaseUri();
+			System.out.println("MR: apache.fop.defaultBaseUri: '{}'." + espdConfiguration.getFopDefaultBaseUri());
+			System.out.println("MR: Computed base URI: '{}'." + defaultBaseURI);
 			log.debug("--- apache.fop.defaultBaseUri: '{}'.", espdConfiguration.getFopDefaultBaseUri());
 			log.debug("--- Computed base URI: '{}'.", defaultBaseURI);
 			FopFactoryBuilder fopFactoryBuilder = new FopFactoryBuilder(
@@ -130,6 +132,7 @@ class ApacheFopConfig {
 		@Override
 		public Resource getResource(URI uri) throws IOException {
 			log.trace("--- Fop resource resolver get resource: '{}'.", uri);
+			System.out.println("MR: getRessource Uri=" + uri.toASCIIString());
 			InputStream is = resourceLoader.getResource(uri.toASCIIString()).getInputStream();
 			return new Resource(is);
 		}

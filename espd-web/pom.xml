@@ -33,7 +33,7 @@
     <artifactId>espd-web</artifactId>
     <packaging>war</packaging>
     <name>espd-web Maven Webapp</name>
-    <url>https://www.ec.europa.eu/growth/tools-databases/espd</url>
+    <url>http://localhost:8080</url>
 
     <dependencies>
         <dependency>
@@ -211,6 +211,19 @@
                             <filtering>false</filtering>
                         </resource>
                     </webResources>
+					
+					<artifactId>maven-jar-plugin</artifactId>
+					
+					<!-- IKKE FØRT TIL DØRS
+					<archive>
+						<manifestEntries>
+							<manifestEntry>
+								<Name>file://fonts/DejaVuSans/ttf/DejaVuSans-Bold.ttf</Name>
+								<Content-Type>application/x-font</Content-Type>
+							</manifestEntry
+						</manifestEntries>
+					</archive>
+					--> 
                 </configuration>
             </plugin>
             <plugin>
@@ -282,6 +295,7 @@
                     <contextPath>/espd/</contextPath>
                 </configuration>
             </plugin>
+			
         </plugins>
         <pluginManagement>
             <plugins>

@@ -79,19 +79,21 @@
                 (normal = 400, bold = 700)
                 -->
 
-                <font metrics-url="fonts/DejaVuSans/ttf/DejaVuSans.xml"
-                      embed-url="fonts/DejaVuSans/ttf/DejaVuSans.ttf">
+
+                				
+                 <font metrics-url="file:/fonts/DejaVuSans/ttf/DejaVuSans.xml"
+                      embed-url="file:/fonts/DejaVuSans/ttf/DejaVuSans.ttf">
                     <font-triplet name="DejaVuSans" style="normal" weight="normal"/>
                 </font>
-                <font metrics-url="fonts/DejaVuSans/ttf/DejaVuSans-Bold.xml"
-                      embed-url="fonts/DejaVuSans/ttf/DejaVuSans-Bold.ttf">
+                <font metrics-url="file:/fonts/DejaVuSans/ttf/DejaVuSans-Bold.xml"
+                      embed-url="file:/fonts/DejaVuSans/ttf/DejaVuSans-Bold.ttf">
                     <font-triplet name="DejaVuSans" style="normal" weight="bold"/>
                 </font>
-                <font metrics-url="fonts/DejaVuSans/ttf/DejaVuSans-Oblique.xml"
-                      embed-url="fonts/DejaVuSans/ttf/DejaVuSans-Oblique.ttf">
+                <font metrics-url="file:/fonts/DejaVuSans/ttf/DejaVuSans-Oblique.xml"
+                      embed-url="file:/fonts/DejaVuSans/ttf/DejaVuSans-Oblique.ttf">
                     <font-triplet name="DejaVuSans" style="italic" weight="normal"/>
                 </font>
-
+				
                 <!--
                 <font metrics-url="arialb.xml" kerning="yes" embed-url="arialb.ttf">
                   <font-triplet name="Arial" style="normal" weight="bold"/>

@@ -1,0 +1,1146 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ESPD web application
+[INFO] espd-web Maven Webapp
+[INFO] espd-docs
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ESPD web application 2018.11
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ espd ---
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building espd-web Maven Webapp 2018.11
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ espd-web ---
+[INFO] Deleting C:\GitHub\ESPD-Service\espd-web\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-banned-dependencies) @ espd-web ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ espd-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 403 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ espd-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 106 source files to C:\GitHub\ESPD-Service\espd-web\target\classes
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.5:compile (default) @ espd-web ---
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- wro4j-maven-plugin:1.8.0:run (all) @ espd-web ---
+[INFO] C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources
+[INFO] Executing the mojo: 
+[INFO] Wro4j Model path: C:\GitHub\ESPD-Service\espd-web\src\main\resources\wro.xml
+[INFO] targetGroups: all
+[INFO] minimize: true
+[INFO] ignoreMissingResources: false
+[INFO] parallelProcessing: false
+[INFO] buildDirectory: C:\GitHub\ESPD-Service\espd-web\target
+[INFO] contextPath: /espd/
+[INFO] destinationFolder: C:\GitHub\ESPD-Service\espd-web\target
+[INFO] jsDestinationFolder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] cssDestinationFolder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] The following groups will be processed: [all]
+[INFO] folder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] processing group: all.css
+[WARNING] No resource found for wildcard: fontawesome-webfont.eot?v=4.2.0
+[WARNING] [FAIL] extract dataUri from: /static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?v=4.2.0, because: No valid resource '/static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?v=4.2.0' found inside any of contextFolders: [C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources]. A possible cause: using CssUrlRewritingProcessor before CssDataUriPreProcessor.
+[WARNING] No resource found for wildcard: fontawesome-webfont.eot?#iefix&v=4.2.0
+[WARNING] [FAIL] extract dataUri from: /static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0, because: No valid resource '/static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0' found inside any of contextFolders: [C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources]. A possible cause: using CssUrlRewritingProcessor before CssDataUriPreProcessor.
+[WARNING] No resource found for wildcard: glyphicons-halflings-regular.eot?#iefix
+[WARNING] [FAIL] extract dataUri from: /static/bootstrap-3.2.0/css/../fonts/glyphicons-halflings-regular.eot?#iefix, because: No valid resource '/static/bootstrap-3.2.0/css/../fonts/glyphicons-halflings-regular.eot?#iefix' found inside any of contextFolders: [C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources]. A possible cause: using CssUrlRewritingProcessor before CssDataUriPreProcessor.
+[INFO] file size: all.css -> 206164 bytes
+[INFO] C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle\all.css (206164 bytes)
+[INFO] folder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] processing group: all.js
+[INFO] file size: all.js -> 368092 bytes
+[INFO] C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle\all.js (368092 bytes)
+[INFO] 
+[INFO] --- wro4j-maven-plugin:1.8.0:run (debug) @ espd-web ---
+[INFO] C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources
+[INFO] Executing the mojo: 
+[INFO] Wro4j Model path: C:\GitHub\ESPD-Service\espd-web\src\main\resources\wro.xml
+[INFO] targetGroups: debug
+[INFO] minimize: false
+[INFO] ignoreMissingResources: false
+[INFO] parallelProcessing: false
+[INFO] buildDirectory: C:\GitHub\ESPD-Service\espd-web\target
+[INFO] contextPath: /espd/
+[INFO] destinationFolder: C:\GitHub\ESPD-Service\espd-web\target
+[INFO] jsDestinationFolder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] cssDestinationFolder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] The following groups will be processed: [debug]
+[INFO] folder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] processing group: debug.css
+[WARNING] No resource found for wildcard: fontawesome-webfont.eot?v=4.2.0
+[WARNING] [FAIL] extract dataUri from: /static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?v=4.2.0, because: No valid resource '/static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?v=4.2.0' found inside any of contextFolders: [C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources]. A possible cause: using CssUrlRewritingProcessor before CssDataUriPreProcessor.
+[WARNING] No resource found for wildcard: fontawesome-webfont.eot?#iefix&v=4.2.0
+[WARNING] [FAIL] extract dataUri from: /static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0, because: No valid resource '/static/font-awesome-4.2.0/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0' found inside any of contextFolders: [C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources]. A possible cause: using CssUrlRewritingProcessor before CssDataUriPreProcessor.
+[WARNING] No resource found for wildcard: glyphicons-halflings-regular.eot?#iefix
+[WARNING] [FAIL] extract dataUri from: /static/bootstrap-3.2.0/css/../fonts/glyphicons-halflings-regular.eot?#iefix, because: No valid resource '/static/bootstrap-3.2.0/css/../fonts/glyphicons-halflings-regular.eot?#iefix' found inside any of contextFolders: [C:\GitHub\ESPD-Service\espd-web/src/main/resources/META-INF/resources]. A possible cause: using CssUrlRewritingProcessor before CssDataUriPreProcessor.
+[INFO] file size: debug.css -> 251789 bytes
+[INFO] C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle\debug.css (251789 bytes)
+[INFO] folder: C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
+[INFO] processing group: debug.js
+[INFO] file size: debug.js -> 889493 bytes
+[INFO] C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle\debug.js (889493 bytes)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ espd-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\GitHub\ESPD-Service\espd-web\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ espd-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.5:testCompile (default) @ espd-web ---
+[INFO] Using Groovy 2.4.1 to perform testCompile.
+[INFO] Compiled 191 files.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ espd-web ---
+[INFO] Surefire report directory: C:\GitHub\ESPD-Service\espd-web\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running eu.europa.ec.grow.espd.domain.CriterionDefaultValuesTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.686 sec - in eu.europa.ec.grow.espd.domain.CriterionDefaultValuesTest
+Running eu.europa.ec.grow.espd.domain.EspdDocumentTest
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Setting default value: false
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.BooleanConverter -     No conversion required, value is already a Boolean
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Setting default value: 0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.ByteConverter -     Converted to Byte value '0'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Setting default value:  
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.CharacterConverter -     No conversion required, value is already a Character
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Setting default value: 0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.DoubleConverter -     Converted to Double value '0.0'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Setting default value: 0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.FloatConverter -     Converted to Float value '0.0'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Setting default value: 0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.LongConverter - Setting default value: 0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Integer' value '0' to type 'Long'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.LongConverter -     Converted to Long value '0'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Setting default value: 0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.ShortConverter -     Converted to Short value '0'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter - Setting default value: 0.0
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+15:13:22.732 [main] DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter -     No conversion required, value is already a BigDecimal
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter - Converting 'BigInteger' value '0' to type 'BigInteger'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter -     No conversion required, value is already a BigInteger
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Setting default value: false
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.BooleanConverter -     No conversion required, value is already a Boolean
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ByteConverter -     Converted to Byte value '0'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Setting default value:  
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.CharacterConverter -     No conversion required, value is already a Character
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.DoubleConverter -     Converted to Double value '0.0'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.FloatConverter -     Converted to Float value '0.0'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.LongConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Integer' value '0' to type 'Long'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.LongConverter -     Converted to Long value '0'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Setting default value: 0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ShortConverter -     Converted to Short value '0'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.StringConverter - Setting default value: 
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '' to type 'String'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Z@1dab4eb
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'boolean[]' value '[Z@1dab4eb' to type 'boolean[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a boolean[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [B@1901eb0
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'byte[]' value '[B@1901eb0' to type 'byte[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a byte[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [C@1a987b8
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'char[]' value '[C@1a987b8' to type 'char[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a char[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [D@1191845
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'double[]' value '[D@1191845' to type 'double[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a double[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [F@1049ea1
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'float[]' value '[F@1049ea1' to type 'float[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a float[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [I@cc7e6f
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'int[]' value '[I@cc7e6f' to type 'int[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a int[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [J@1afa3c9
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'long[]' value '[J@1afa3c9' to type 'long[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a long[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [S@35809
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'short[]' value '[S@35809' to type 'short[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a short[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.math.BigDecimal;@109217e
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@109217e' to type 'BigDecimal[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a BigDecimal[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.math.BigInteger;@6e4010
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@6e4010' to type 'BigInteger[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a BigInteger[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Boolean;@75da3
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@75da3' to type 'Boolean[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Boolean[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Byte;@35b0f5
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Byte[]' value '[Ljava.lang.Byte;@35b0f5' to type 'Byte[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Byte[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Character;@2c3d18
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Character[]' value '[Ljava.lang.Character;@2c3d18' to type 'Character[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Character[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Double;@c43f62
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Double[]' value '[Ljava.lang.Double;@c43f62' to type 'Double[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Double[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Float;@5aa696
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Float[]' value '[Ljava.lang.Float;@5aa696' to type 'Float[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Float[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Integer;@13d1baf
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Integer[]' value '[Ljava.lang.Integer;@13d1baf' to type 'Integer[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Integer[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Long;@13444fe
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Long[]' value '[Ljava.lang.Long;@13444fe' to type 'Long[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Long[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Short;@75e76a
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Short[]' value '[Ljava.lang.Short;@75e76a' to type 'Short[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Short[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.String;@32714f
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'String[]' value '[Ljava.lang.String;@32714f' to type 'String[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a String[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Class;@48bb62
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Class[]' value '[Ljava.lang.Class;@48bb62' to type 'Class[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Class[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.util.Date;@13352b6
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Date[]' value '[Ljava.util.Date;@13352b6' to type 'Date[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Date[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.util.Calendar;@17a78e3
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Calendar[]' value '[Ljava.util.Calendar;@17a78e3' to type 'Calendar[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Calendar[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.io.File;@1a51cd4
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.io.File[]' value '[Ljava.io.File;@1a51cd4' to type 'java.io.File[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.io.File[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Date;@10c2b53
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@10c2b53' to type 'java.sql.Date[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Date[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Time;@28087
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@28087' to type 'java.sql.Time[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Time[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Timestamp;@aa0244
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@aa0244' to type 'java.sql.Timestamp[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Timestamp[]
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.net.URL;@e69770
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.net.URL[]' value '[Ljava.net.URL;@e69770' to type 'java.net.URL[]'
+15:13:22.747 [main] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.net.URL[]
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.454 sec - in eu.europa.ec.grow.espd.domain.EspdDocumentTest
+Running eu.europa.ec.grow.espd.xml.CriteriaListTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.CriteriaListTest
+Running eu.europa.ec.grow.espd.xml.request.award.EconomicOperatorParticipatingProcurementProcedureRequestTest
+15:13:23.335 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:23.359 [main] INFO org.springframework.oxm.jaxb.Jaxb2Marshaller - Creating JAXBContext by scanning packages [grow.names.specification.ubl.schema.xsd.espdrequest_1,grow.names.specification.ubl.schema.xsd.espdresponse_1]
+15:13:23.426 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [grow/names/specification/ubl/schema/xsd/espdrequest_1/] to resources [URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdrequest_1/]]
+15:13:23.427 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar]
+15:13:23.434 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:grow/names/specification/ubl/schema/xsd/espdrequest_1/**/*.class] to resources [URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdrequest_1/ObjectFactory.class], URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdrequest_1/package-info.class], URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdrequest_1/ESPDRequestType.class]]
+15:13:23.489 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [grow/names/specification/ubl/schema/xsd/espdresponse_1/] to resources [URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdresponse_1/]]
+15:13:23.490 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar]
+15:13:23.506 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:grow/names/specification/ubl/schema/xsd/espdresponse_1/**/*.class] to resources [URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdresponse_1/ObjectFactory.class], URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdresponse_1/package-info.class], URL [jar:file:/C:/Users/mr/.m2/repository/eu/europa/ec/grow/espd/exchange-model/1.0.2/exchange-model-1.0.2.jar!/grow/names/specification/ubl/schema/xsd/espdresponse_1/ESPDResponseType.class]]
+15:13:23.509 [main] DEBUG org.springframework.oxm.jaxb.Jaxb2Marshaller - Found JAXB2 classes: [class grow.names.specification.ubl.schema.xsd.espdrequest_1.ObjectFactory,class grow.names.specification.ubl.schema.xsd.espdrequest_1.ESPDRequestType,class grow.names.specification.ubl.schema.xsd.espdresponse_1.ObjectFactory,class grow.names.specification.ubl.schema.xsd.espdresponse_1.ESPDResponseType]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.135 sec - in eu.europa.ec.grow.espd.xml.request.award.EconomicOperatorParticipatingProcurementProcedureRequestTest
+Running eu.europa.ec.grow.espd.xml.request.award.EconomicOperatorRegisteredRequestTest
+15:13:26.987 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec - in eu.europa.ec.grow.espd.xml.request.award.EconomicOperatorRegisteredRequestTest
+Running eu.europa.ec.grow.espd.xml.request.award.EconomicOperatorReliesCapacitiesRequestTest
+15:13:27.038 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in eu.europa.ec.grow.espd.xml.request.award.EconomicOperatorReliesCapacitiesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.award.MeetsObjectiveRequestTest
+15:13:27.057 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in eu.europa.ec.grow.espd.xml.request.award.MeetsObjectiveRequestTest
+Running eu.europa.ec.grow.espd.xml.request.award.ProcurementReservedRequestTest
+15:13:27.088 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in eu.europa.ec.grow.espd.xml.request.award.ProcurementReservedRequestTest
+Running eu.europa.ec.grow.espd.xml.request.award.SucontractingThirdPartiesRequestTest
+15:13:27.104 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in eu.europa.ec.grow.espd.xml.request.award.SucontractingThirdPartiesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.EspdRequestMarshallingTest
+15:13:27.119 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.135 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.251 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.266 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.283 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.288 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.304 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.319 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.335 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.335 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.366 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.388 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'http://ted.europa.eu/udl?uri=TED:NOTICE:002226-2016:TEXT:ES:HTML' does not contain any exclusion criteria.
+15:13:27.404 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'http://ted.europa.eu/udl?uri=TED:NOTICE:002226-2016:TEXT:ES:HTML' does not contain any exclusion criteria.
+15:13:27.420 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.451 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.451 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.467 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:27.489 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.385 sec - in eu.europa.ec.grow.espd.xml.request.EspdRequestMarshallingTest
+Running eu.europa.ec.grow.espd.xml.request.EspdRequestMixedCriteriaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.EspdRequestMixedCriteriaTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.AgreementsWithEORequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.AgreementsWithEORequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.AnalogousSituationRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.AnalogousSituationRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.ArrangementWithCreditorsRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.ArrangementWithCreditorsRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.AssetsAdministeredByLiquidatorRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.AssetsAdministeredByLiquidatorRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.BankruptcyRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.BankruptcyRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.BreachingObligationsEnvironmentalRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.BreachingObligationsEnvironmentalRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.BreachingObligationsLabourRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.BreachingObligationsLabourRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.BreachingObligationsSocialRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.BreachingObligationsSocialRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.BusinessActivitiesSuspendedRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.BusinessActivitiesSuspendedRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.ChildLabourRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.ChildLabourRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.ConflictOfInterestParticipationProcurementProcedureRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.ConflictOfInterestParticipationProcurementProcedureRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.CorruptionRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.CorruptionRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.DirectInvolvementPreparationProcurementRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.DirectInvolvementPreparationProcurementRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.EarlyTerminationRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.EarlyTerminationRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.EspdRequestExclusionCriteriaMarshallingTest
+15:13:27.821 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.EspdRequestExclusionCriteriaMarshallingTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.FraudRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.FraudRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.GuiltyOfMisinterpretationRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.GuiltyOfMisinterpretationRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.GuiltyProfessionalMisconductRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.GuiltyProfessionalMisconductRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.InsolvencyRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.InsolvencyRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.MoneyLaunderingRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.MoneyLaunderingRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.NationalExclusionGroundsRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.NationalExclusionGroundsRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.ParticipationInCriminalOrganisationRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.ParticipationInCriminalOrganisationRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.PaymentOfSocialSecurityRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.PaymentOfSocialSecurityRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.PaymentOfTaxesRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.PaymentOfTaxesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.exclusion.TerroristOffencesRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in eu.europa.ec.grow.espd.xml.request.exclusion.TerroristOffencesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.importing.EspdRequestAwardCriteriaImportTest
+15:13:28.253 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response ''.
+15:13:28.253 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.request.importing.EspdRequestAwardCriteriaImportTest
+Running eu.europa.ec.grow.espd.xml.request.importing.EspdRequestExclusionCriteriaImportTest
+15:13:28.291 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response ''.
+15:13:28.291 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+15:13:28.306 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response ''.
+15:13:28.306 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in eu.europa.ec.grow.espd.xml.request.importing.EspdRequestExclusionCriteriaImportTest
+Running eu.europa.ec.grow.espd.xml.request.importing.EspdRequestOtherInformationImportTest
+15:13:28.322 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+15:13:28.338 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response ''.
+15:13:28.338 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+15:13:28.338 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.request.importing.EspdRequestOtherInformationImportTest
+Running eu.europa.ec.grow.espd.xml.request.importing.EspdRequestSelectionCriteriaImportTest
+15:13:28.386 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response ''.
+15:13:28.386 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+15:13:28.390 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response ''.
+15:13:28.390 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response ''.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in eu.europa.ec.grow.espd.xml.request.importing.EspdRequestSelectionCriteriaImportTest
+Running eu.europa.ec.grow.espd.xml.request.selection.AllCriteriaSatisfiedRequestTest
+15:13:28.391 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.AllCriteriaSatisfiedRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.AllowanceOfChecksRequestTest
+15:13:28.406 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.AllowanceOfChecksRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.AverageAnnualManpowerRequestTest
+15:13:28.406 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.AverageAnnualManpowerRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.AverageYearlyTurnoverRequestTest
+15:13:28.422 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.selection.AverageYearlyTurnoverRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.CertificatesIndependentBodiesEnvironmentalRequestTest
+15:13:28.438 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.CertificatesIndependentBodiesEnvironmentalRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.CertificatesIndependentBodiesQARequestTest
+15:13:28.453 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.CertificatesIndependentBodiesQARequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.EducationalProfessionalQualificationsRequestTest
+15:13:28.453 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.EducationalProfessionalQualificationsRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.EnrolmentProfessionalRegisterRequestTest
+15:13:28.469 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.EnrolmentProfessionalRegisterRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.EnrolmentTradeRegisterRequestTest
+15:13:28.507 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.selection.EnrolmentTradeRegisterRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.EnrolmentTradeRegisterResponseTest
+15:13:28.507 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.522 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.522 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.522 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.522 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in eu.europa.ec.grow.espd.xml.request.selection.EnrolmentTradeRegisterResponseTest
+Running eu.europa.ec.grow.espd.xml.request.selection.EnvironmentalManagementMeasuresRequestTest
+15:13:28.538 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.EnvironmentalManagementMeasuresRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.EspdRequestSelectionCriteriaMarshallingTest
+15:13:28.538 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.538 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.554 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in eu.europa.ec.grow.espd.xml.request.selection.EspdRequestSelectionCriteriaMarshallingTest
+Running eu.europa.ec.grow.espd.xml.request.selection.FinancialRatioRequestTest
+15:13:28.569 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.FinancialRatioRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.GeneralYearlyTurnoverRequestTest
+15:13:28.569 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.GeneralYearlyTurnoverRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.NumberOfManagerialStaffRequestTest
+15:13:28.590 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.NumberOfManagerialStaffRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.OtherEconomicFinancialRequirementsRequestTest
+15:13:28.592 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.OtherEconomicFinancialRequirementsRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.ProfessionalRiskIndemnityRequestTest
+15:13:28.607 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.ProfessionalRiskIndemnityRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.ServiceContractsPerformanceServicesRequestTest
+15:13:28.607 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.ServiceContractsPerformanceServicesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SetupEconomicOperatorRequestTest
+15:13:28.623 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SetupEconomicOperatorRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SpecificAverageTurnoverRequestTest
+15:13:28.623 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SpecificAverageTurnoverRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SpecificYearlyTurnoverRequestTest
+15:13:28.638 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SpecificYearlyTurnoverRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.StudyResearchFacilitiesRequestTest
+15:13:28.638 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.StudyResearchFacilitiesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SubcontractingProportionRequestTest
+15:13:28.654 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SubcontractingProportionRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SupplyChainManagementRequestTest
+15:13:28.670 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SupplyChainManagementRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsCertificatesByQCRequestTest
+15:13:28.688 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsCertificatesByQCRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsPerformanceDeliveriesRequestTest
+15:13:28.692 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsPerformanceDeliveriesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsSamplesWithCARequestTest
+15:13:28.692 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsSamplesWithCARequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsSamplesWithoutCARequestTest
+15:13:28.707 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.SupplyContractsSamplesWithoutCARequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.TechnicalFacilitiesRequestTest
+15:13:28.707 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.TechnicalFacilitiesRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.ToolsPlantRequestTest
+15:13:28.723 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in eu.europa.ec.grow.espd.xml.request.selection.ToolsPlantRequestTest
+Running eu.europa.ec.grow.espd.xml.request.selection.WorkContractsPerformanceWorksRequestTest
+15:13:28.723 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.request.selection.WorkContractsPerformanceWorksRequestTest
+Running eu.europa.ec.grow.espd.xml.response.award.EconomicOperatorParticipatingProcurementProcedureResponseTest
+15:13:28.739 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.754 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.754 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.770 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.789 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in eu.europa.ec.grow.espd.xml.response.award.EconomicOperatorParticipatingProcurementProcedureResponseTest
+Running eu.europa.ec.grow.espd.xml.response.award.EconomicOperatorRegisteredResponseTest
+15:13:28.825 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.837 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.848 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.858 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.868 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.878 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.888 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.898 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in eu.europa.ec.grow.espd.xml.response.award.EconomicOperatorRegisteredResponseTest
+Running eu.europa.ec.grow.espd.xml.response.award.EconomicOperatorReliesCapacitiesResponseTest
+15:13:28.912 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.949 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in eu.europa.ec.grow.espd.xml.response.award.EconomicOperatorReliesCapacitiesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.award.MeetsObjectiveResponseTest
+15:13:28.963 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.975 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.985 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:28.996 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.006 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.016 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in eu.europa.ec.grow.espd.xml.response.award.MeetsObjectiveResponseTest
+Running eu.europa.ec.grow.espd.xml.response.award.ProcurementReservedResponseTest
+15:13:29.030 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.068 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.078 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.088 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec - in eu.europa.ec.grow.espd.xml.response.award.ProcurementReservedResponseTest
+Running eu.europa.ec.grow.espd.xml.response.award.SucontractingThirdPartiesResponseTest
+15:13:29.102 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.113 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.123 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in eu.europa.ec.grow.espd.xml.response.award.SucontractingThirdPartiesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.CriterionRequirementsTest
+15:13:29.412 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.415 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.418 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.422 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 sec - in eu.europa.ec.grow.espd.xml.response.CriterionRequirementsTest
+Running eu.europa.ec.grow.espd.xml.response.EspdResponseCriteriaTest
+15:13:29.435 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.461 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.464 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in eu.europa.ec.grow.espd.xml.response.EspdResponseCriteriaTest
+Running eu.europa.ec.grow.espd.xml.response.EspdResponseMarshallingTest
+15:13:29.480 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.492 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.503 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.514 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.598 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.608 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.618 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.632 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.642 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.652 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.662 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.672 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.687 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.698 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.708 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.718 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.728 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.739 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'http://ted.europa.eu/udl?uri=TED:NOTICE:002226-2016:TEXT:ES:HTML' does not contain any exclusion criteria.
+15:13:29.749 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'http://ted.europa.eu/udl?uri=TED:NOTICE:002226-2016:TEXT:ES:HTML' does not contain any exclusion criteria.
+15:13:29.788 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.798 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.808 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.818 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:29.828 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.353 sec - in eu.europa.ec.grow.espd.xml.response.EspdResponseMarshallingTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.AgreementsWithEOResponseTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.AgreementsWithEOResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.AnalogousSituationResponseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.AnalogousSituationResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.ArrangementWithCreditorsResponseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.ArrangementWithCreditorsResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.AssetsAdministeredByLiquidatorResponseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.AssetsAdministeredByLiquidatorResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.BankruptcyResponseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.BankruptcyResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.BreachingObligationsEnvironmentalResponseTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.BreachingObligationsEnvironmentalResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.BreachingObligationsLabourResponseTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.BreachingObligationsLabourResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.BreachingObligationsSocialResponseTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.BreachingObligationsSocialResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.BusinessActivitiesSuspendedResponseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.4 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.BusinessActivitiesSuspendedResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.ChildLabourResponseTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.ChildLabourResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.ConflictOfInterestParticipationProcurementProcedureResponseTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.ConflictOfInterestParticipationProcurementProcedureResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.CorruptionResponseTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.25 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.CorruptionResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.DirectInvolvementPreparationProcurementResponseTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.DirectInvolvementPreparationProcurementResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.EarlyTerminationResponseTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.EarlyTerminationResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.FraudResponseTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.FraudResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.GuiltyOfMisinterpretationResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.GuiltyOfMisinterpretationResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.GuiltyProfessionalMisconductResponseTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.GuiltyProfessionalMisconductResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.InsolvencyResponseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.InsolvencyResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.MixedExclusionCriteriaResponseTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.MixedExclusionCriteriaResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.MoneyLaunderingResponseTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.MoneyLaunderingResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.NationalExclusionGroundsResponseTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.NationalExclusionGroundsResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.ParticipationInCriminalOrganisationResponseTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.ParticipationInCriminalOrganisationResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.PaymentOfSocialSecurityResponseTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.PaymentOfSocialSecurityResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.PaymentOfTaxesResponseTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.63 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.PaymentOfTaxesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exclusion.TerroristOffencesResponseTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.789 sec - in eu.europa.ec.grow.espd.xml.response.exclusion.TerroristOffencesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.exporting.UblResponseRequirementTransformerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec - in eu.europa.ec.grow.espd.xml.response.exporting.UblResponseRequirementTransformerTest
+Running eu.europa.ec.grow.espd.xml.response.importing.award.EconomicOperatorParticipatingProcurementProcedureImportTest
+15:13:33.953 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'fe3166ed-c8cc-4915-9d90-113c014bd63f'.
+15:13:33.953 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'fe3166ed-c8cc-4915-9d90-113c014bd63f'.
+15:13:33.953 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'fe3166ed-c8cc-4915-9d90-113c014bd63f'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.award.EconomicOperatorParticipatingProcurementProcedureImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.award.EconomicOperatorRegisteredImportTest
+15:13:33.959 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'f4fc8f1b-3565-498e-a71d-040c3f8aaef6'.
+15:13:33.960 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'f4fc8f1b-3565-498e-a71d-040c3f8aaef6'.
+15:13:33.960 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'f4fc8f1b-3565-498e-a71d-040c3f8aaef6'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.award.EconomicOperatorRegisteredImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.award.EconomicOperatorReliesCapacitiesImportTest
+15:13:33.965 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '61a1e039-67cf-4e08-8150-c9f69b65d033'.
+15:13:33.965 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '61a1e039-67cf-4e08-8150-c9f69b65d033'.
+15:13:33.965 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '61a1e039-67cf-4e08-8150-c9f69b65d033'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.award.EconomicOperatorReliesCapacitiesImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.award.MeetsObjectiveImportTest
+15:13:33.971 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'cfc31a16-3097-4a6d-aff4-4d0703614152'.
+15:13:33.972 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'cfc31a16-3097-4a6d-aff4-4d0703614152'.
+15:13:33.972 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'cfc31a16-3097-4a6d-aff4-4d0703614152'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.award.MeetsObjectiveImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.award.ProcurementReservedImportTest
+15:13:33.977 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'a3801015-9664-4dcb-ad13-440f99101d3e'.
+15:13:33.977 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'a3801015-9664-4dcb-ad13-440f99101d3e'.
+15:13:33.977 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'a3801015-9664-4dcb-ad13-440f99101d3e'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.award.ProcurementReservedImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.award.SucontractingThirdPartiesImportTest
+15:13:33.983 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'd7042186-8789-4ffe-8fe6-2effda10bb3a'.
+15:13:33.983 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'd7042186-8789-4ffe-8fe6-2effda10bb3a'.
+15:13:33.983 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'd7042186-8789-4ffe-8fe6-2effda10bb3a'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.award.SucontractingThirdPartiesImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.EspdRequestResponseMergeTest
+15:13:33.998 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '5e86c187-8269-4ff3-8224-bb770d3be5f8'.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.EspdRequestResponseMergeTest
+Running eu.europa.ec.grow.espd.xml.response.importing.EspdResponseOtherInformationImportTest
+15:13:34.008 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+15:13:34.010 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+15:13:34.010 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+15:13:34.010 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+15:13:34.015 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+15:13:34.016 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+15:13:34.018 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'ce72f076-8767-4e72-95db-9b7c0848e386'.
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.EspdResponseOtherInformationImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.EspdResponseVatAndNationalNumberTest
+15:13:34.026 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'e882583f-3d29-4745-b28f-307db76f63cb'.
+15:13:34.026 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'e882583f-3d29-4745-b28f-307db76f63cb'.
+15:13:34.026 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'e882583f-3d29-4745-b28f-307db76f63cb'.
+15:13:34.030 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'e882583f-3d29-4745-b28f-307db76f63cb'.
+15:13:34.030 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'e882583f-3d29-4745-b28f-307db76f63cb'.
+15:13:34.030 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'e882583f-3d29-4745-b28f-307db76f63cb'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.EspdResponseVatAndNationalNumberTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.AgreementsWithEOImportTest
+15:13:34.035 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '311aec94-8d4b-4104-8268-198dfe1f5ec4'.
+15:13:34.035 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '311aec94-8d4b-4104-8268-198dfe1f5ec4'.
+15:13:34.035 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '311aec94-8d4b-4104-8268-198dfe1f5ec4'.
+15:13:34.037 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '311aec94-8d4b-4104-8268-198dfe1f5ec4'.
+15:13:34.037 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '311aec94-8d4b-4104-8268-198dfe1f5ec4'.
+15:13:34.037 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '311aec94-8d4b-4104-8268-198dfe1f5ec4'.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.AgreementsWithEOImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.BankruptcyImportTest
+15:13:34.044 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '86e1a6b8-779f-4686-a580-4800c7fa9104'.
+15:13:34.045 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '86e1a6b8-779f-4686-a580-4800c7fa9104'.
+15:13:34.045 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '86e1a6b8-779f-4686-a580-4800c7fa9104'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.BankruptcyImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.BreachingOfObligationsEnvironmentalImportTest
+15:13:34.051 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'bf39ad0d-5e2c-4518-83d2-e2155d43d255'.
+15:13:34.051 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'bf39ad0d-5e2c-4518-83d2-e2155d43d255'.
+15:13:34.051 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'bf39ad0d-5e2c-4518-83d2-e2155d43d255'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.BreachingOfObligationsEnvironmentalImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.BreachingOfObligationsLabourImportTest
+15:13:34.058 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'b2116c10-9fa8-490b-8298-5429b8d66ca5'.
+15:13:34.058 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'b2116c10-9fa8-490b-8298-5429b8d66ca5'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.BreachingOfObligationsLabourImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.BreachingOfObligationsSocialImportTest
+15:13:34.064 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '7891db8d-c025-4e13-b6e8-07447f1f307d'.
+15:13:34.064 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '7891db8d-c025-4e13-b6e8-07447f1f307d'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.BreachingOfObligationsSocialImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.ConflictOfInterestImportTest
+15:13:34.069 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '985c77aa-ab70-4d14-9431-d345cbf95091'.
+15:13:34.069 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '985c77aa-ab70-4d14-9431-d345cbf95091'.
+15:13:34.069 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '985c77aa-ab70-4d14-9431-d345cbf95091'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.ConflictOfInterestImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.MisconductImportTest
+15:13:34.075 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '21db1bbe-9224-41e0-b57e-aca47b077fc7'.
+15:13:34.075 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '21db1bbe-9224-41e0-b57e-aca47b077fc7'.
+15:13:34.075 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '21db1bbe-9224-41e0-b57e-aca47b077fc7'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.MisconductImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.NationalExclusionGroundsImportTest
+15:13:34.082 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '0465ea61-7529-4a93-b9c4-542c7082db57'.
+15:13:34.082 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '0465ea61-7529-4a93-b9c4-542c7082db57'.
+15:13:34.082 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '0465ea61-7529-4a93-b9c4-542c7082db57'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.NationalExclusionGroundsImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.ParticipationCriminalOrganisationImportTest
+15:13:34.089 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'efe50cbb-6dc6-4e9a-8676-3e5dcd2adb46'.
+15:13:34.089 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'efe50cbb-6dc6-4e9a-8676-3e5dcd2adb46'.
+15:13:34.089 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'efe50cbb-6dc6-4e9a-8676-3e5dcd2adb46'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.ParticipationCriminalOrganisationImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.exclusion.PaymentOfTaxesImportTest
+15:13:34.097 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'ae9aff8c-af5e-4a68-9ad7-ac0ff1ba5426'.
+15:13:34.097 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'ae9aff8c-af5e-4a68-9ad7-ac0ff1ba5426'.
+15:13:34.097 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'ae9aff8c-af5e-4a68-9ad7-ac0ff1ba5426'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.exclusion.PaymentOfTaxesImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.AllowanceOfChecksImportTest
+15:13:34.103 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'def0ae5d-bef9-46eb-b489-c37f9e684ac2'.
+15:13:34.103 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'def0ae5d-bef9-46eb-b489-c37f9e684ac2'.
+15:13:34.103 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'def0ae5d-bef9-46eb-b489-c37f9e684ac2'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.AllowanceOfChecksImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.AverageYearlyTurnoverImportTest
+15:13:34.109 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'a496fdf2-f9cd-42bd-8742-07a37759f184'.
+15:13:34.109 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'a496fdf2-f9cd-42bd-8742-07a37759f184'.
+15:13:34.110 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'a496fdf2-f9cd-42bd-8742-07a37759f184'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.AverageYearlyTurnoverImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.CertificatesIndependentBodiesEnvironmentalImportTest
+15:13:34.116 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '5c0fd306-438e-45dc-ae86-e6b0c5a8d6af'.
+15:13:34.116 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '5c0fd306-438e-45dc-ae86-e6b0c5a8d6af'.
+15:13:34.116 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '5c0fd306-438e-45dc-ae86-e6b0c5a8d6af'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.CertificatesIndependentBodiesEnvironmentalImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.CertificatesIndependentBodiesQualityImportTest
+15:13:34.122 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'a83b01cc-4100-47b5-ad41-3d3095f752bd'.
+15:13:34.122 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'a83b01cc-4100-47b5-ad41-3d3095f752bd'.
+15:13:34.122 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'a83b01cc-4100-47b5-ad41-3d3095f752bd'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.CertificatesIndependentBodiesQualityImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.EnrolmentProfessionalRegisterImportTest
+15:13:34.128 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'e7df53d1-d2e7-4fd9-8170-3875d996fe5a'.
+15:13:34.128 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'e7df53d1-d2e7-4fd9-8170-3875d996fe5a'.
+15:13:34.128 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'e7df53d1-d2e7-4fd9-8170-3875d996fe5a'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.EnrolmentProfessionalRegisterImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.FinancialRatioImportTest
+15:13:34.135 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'a7245f8b-c3a1-4775-ab51-dae76df5c38f'.
+15:13:34.135 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'a7245f8b-c3a1-4775-ab51-dae76df5c38f'.
+15:13:34.135 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'a7245f8b-c3a1-4775-ab51-dae76df5c38f'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.FinancialRatioImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.GeneralYearlyTurnoverImportTest
+15:13:34.144 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'db48d433-06ed-4d88-afcc-19c7bbcdc047'.
+15:13:34.144 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'db48d433-06ed-4d88-afcc-19c7bbcdc047'.
+15:13:34.144 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'db48d433-06ed-4d88-afcc-19c7bbcdc047'.
+15:13:34.150 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'db48d433-06ed-4d88-afcc-19c7bbcdc047'.
+15:13:34.150 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'db48d433-06ed-4d88-afcc-19c7bbcdc047'.
+15:13:34.150 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'db48d433-06ed-4d88-afcc-19c7bbcdc047'.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.GeneralYearlyTurnoverImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.NumberOfManagerialStaffImportTest
+15:13:34.159 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'ebcc720a-b033-4229-a025-521472e006bf'.
+15:13:34.159 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'ebcc720a-b033-4229-a025-521472e006bf'.
+15:13:34.159 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'ebcc720a-b033-4229-a025-521472e006bf'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.NumberOfManagerialStaffImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.OtherEconomicRequirementsImportTest
+15:13:34.170 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'e82e2b1d-a90c-415a-8732-92ed72998dc3'.
+15:13:34.170 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'e82e2b1d-a90c-415a-8732-92ed72998dc3'.
+15:13:34.170 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'e82e2b1d-a90c-415a-8732-92ed72998dc3'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.OtherEconomicRequirementsImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.ProfessionalRiskInsuranceImportTest
+15:13:34.180 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'e88c956c-e637-4935-b9b0-43393ec3e195'.
+15:13:34.180 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'e88c956c-e637-4935-b9b0-43393ec3e195'.
+15:13:34.180 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'e88c956c-e637-4935-b9b0-43393ec3e195'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.ProfessionalRiskInsuranceImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.SatisfiesAllImportTest
+15:13:34.188 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'f0e64851-b9b6-4267-985a-e4a098c6e28c'.
+15:13:34.188 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'f0e64851-b9b6-4267-985a-e4a098c6e28c'.
+15:13:34.189 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'f0e64851-b9b6-4267-985a-e4a098c6e28c'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.SatisfiesAllImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.ServiceContractsAuthorisationImportTest
+15:13:34.198 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'd95ddd37-8270-4b33-a01a-545983444264'.
+15:13:34.198 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'd95ddd37-8270-4b33-a01a-545983444264'.
+15:13:34.198 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'd95ddd37-8270-4b33-a01a-545983444264'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.ServiceContractsAuthorisationImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.SetupEconomicOperatorImportTest
+15:13:34.206 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response 'd5580fe1-7429-447d-9c71-ceab3d48d5e2'.
+15:13:34.206 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response 'd5580fe1-7429-447d-9c71-ceab3d48d5e2'.
+15:13:34.206 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'd5580fe1-7429-447d-9c71-ceab3d48d5e2'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.SetupEconomicOperatorImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.SubcontractingProprtionImportTest
+15:13:34.215 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '2bcfbc47-775d-47cb-af74-2c47e4a1ec68'.
+15:13:34.215 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '2bcfbc47-775d-47cb-af74-2c47e4a1ec68'.
+15:13:34.215 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '2bcfbc47-775d-47cb-af74-2c47e4a1ec68'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.SubcontractingProprtionImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.SupplyContractsCertificateQualityImportTest
+15:13:34.224 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '2c8a1728-838e-4d83-94c6-0ebd71b60e0c'.
+15:13:34.224 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '2c8a1728-838e-4d83-94c6-0ebd71b60e0c'.
+15:13:34.224 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '2c8a1728-838e-4d83-94c6-0ebd71b60e0c'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.SupplyContractsCertificateQualityImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.TechnicalFacilitiesQualityImportTest
+15:13:34.233 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '9e9d49ce-6c93-45e2-9a34-f9f19bf2d13f'.
+15:13:34.234 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '9e9d49ce-6c93-45e2-9a34-f9f19bf2d13f'.
+15:13:34.234 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '9e9d49ce-6c93-45e2-9a34-f9f19bf2d13f'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.TechnicalFacilitiesQualityImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.TechniciansTechnicalBodiesImportTest
+15:13:34.243 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '86b9f231-7424-4ed9-b23f-98144211b0ec'.
+15:13:34.243 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '86b9f231-7424-4ed9-b23f-98144211b0ec'.
+15:13:34.243 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '86b9f231-7424-4ed9-b23f-98144211b0ec'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.TechniciansTechnicalBodiesImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.selection.WorkContractsPerformanceOfWorksImportTest
+15:13:34.777 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '345c7e34-54ac-42fc-9b39-ce1e8bad8dd7'.
+15:13:34.777 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '345c7e34-54ac-42fc-9b39-ce1e8bad8dd7'.
+15:13:34.777 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '345c7e34-54ac-42fc-9b39-ce1e8bad8dd7'.
+15:13:34.783 [main] WARN eu.europa.ec.grow.espd.xml.response.importing.UblResponseImporter - No ESPD Request information found for response '345c7e34-54ac-42fc-9b39-ce1e8bad8dd7'.
+15:13:34.783 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No TED information found for response '345c7e34-54ac-42fc-9b39-ce1e8bad8dd7'.
+15:13:34.783 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '345c7e34-54ac-42fc-9b39-ce1e8bad8dd7'.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.461 sec - in eu.europa.ec.grow.espd.xml.response.importing.selection.WorkContractsPerformanceOfWorksImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.v20160402.FullResponsev20160402ImportTest
+15:13:34.822 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '7772ae11-bd58-4fb8-89d1-ab4dfcbe1a21'.
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec - in eu.europa.ec.grow.espd.xml.response.importing.v20160402.FullResponsev20160402ImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.v20160601.FullResponsev20160601ImportTest
+15:13:34.886 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '0a6f7342-1faa-467e-bc29-b4266b153d26'.
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in eu.europa.ec.grow.espd.xml.response.importing.v20160601.FullResponsev20160601ImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.v20160801.FullResponsev20160801ImportTest
+15:13:34.942 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response '3679123f-de23-4703-8161-cf6c8d9b8ad9'.
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in eu.europa.ec.grow.espd.xml.response.importing.v20160801.FullResponsev20160801ImportTest
+Running eu.europa.ec.grow.espd.xml.response.importing.v20161101.FullResponsev20161101ImportTest
+15:13:34.999 [main] WARN eu.europa.ec.grow.espd.xml.common.importing.UblRequestResponseImporter - No NGOJ information found for response 'e8eccb21-ba8c-413e-8a98-e264d508e111'.
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec - in eu.europa.ec.grow.espd.xml.response.importing.v20161101.FullResponsev20161101ImportTest
+Running eu.europa.ec.grow.espd.xml.response.selection.AllCriteriaSatisfiedResponseTest
+15:13:35.022 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.025 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.028 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.031 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.036 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.044 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in eu.europa.ec.grow.espd.xml.response.selection.AllCriteriaSatisfiedResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.AllowanceOfChecksResponseTest
+15:13:35.059 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.066 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in eu.europa.ec.grow.espd.xml.response.selection.AllowanceOfChecksResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.AverageAnnualManpowerResponseTest
+15:13:35.080 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.088 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.095 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.102 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.108 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.114 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.120 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in eu.europa.ec.grow.espd.xml.response.selection.AverageAnnualManpowerResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.AverageYearlyTurnoverResponseTest
+15:13:35.662 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.666 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.669 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.672 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.676 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.679 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.683 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.552 sec - in eu.europa.ec.grow.espd.xml.response.selection.AverageYearlyTurnoverResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.CertificatesIndependentBodiesEnvironmentalResponseTest
+15:13:35.690 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.694 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.697 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.701 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.704 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.707 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in eu.europa.ec.grow.espd.xml.response.selection.CertificatesIndependentBodiesEnvironmentalResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.CertificatesIndependentBodiesQAResponseTest
+15:13:35.714 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.719 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.722 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.725 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.728 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.731 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in eu.europa.ec.grow.espd.xml.response.selection.CertificatesIndependentBodiesQAResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.EducationalProfessionalQualificationsResponseTest
+15:13:35.738 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.742 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.746 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.749 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.752 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in eu.europa.ec.grow.espd.xml.response.selection.EducationalProfessionalQualificationsResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.EnrolmentProfessionalRegisterResponseTest
+15:13:35.759 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.763 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.766 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.769 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.772 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in eu.europa.ec.grow.espd.xml.response.selection.EnrolmentProfessionalRegisterResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.EnvironmentalManagementMeasuresResponseTest
+15:13:35.778 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.782 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.785 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.788 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.791 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in eu.europa.ec.grow.espd.xml.response.selection.EnvironmentalManagementMeasuresResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.FinancialRatioResponseTest
+15:13:35.798 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.802 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.806 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.809 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.812 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.815 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in eu.europa.ec.grow.espd.xml.response.selection.FinancialRatioResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.GeneralYearlyTurnoverResponseTest
+15:13:35.822 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.826 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.831 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.835 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.839 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.842 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.845 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.848 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in eu.europa.ec.grow.espd.xml.response.selection.GeneralYearlyTurnoverResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.NumberOfManagerialStaffResponseTest
+15:13:35.860 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.869 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.875 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.882 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.887 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.893 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in eu.europa.ec.grow.espd.xml.response.selection.NumberOfManagerialStaffResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.OtherEconomicFinancialRequirementsResponseTest
+15:13:35.906 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.914 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.920 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.925 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:35.931 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in eu.europa.ec.grow.espd.xml.response.selection.OtherEconomicFinancialRequirementsResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ProfessionalRiskIndemnityResponseTest
+15:13:36.480 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.484 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.487 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.489 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.492 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.495 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.553 sec - in eu.europa.ec.grow.espd.xml.response.selection.ProfessionalRiskIndemnityResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsAuthorisationRequestTest
+15:13:36.502 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsAuthorisationRequestTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsAuthorisationResponseTest
+15:13:36.509 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.514 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.517 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.520 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.523 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.526 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsAuthorisationResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsMembershipRequestTest
+15:13:36.533 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsMembershipRequestTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsMembershipResponseTest
+15:13:36.541 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.545 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.548 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.551 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.554 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.557 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsMembershipResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsPerformanceServicesResponseTest
+15:13:36.563 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.568 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.572 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.576 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.579 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.582 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.585 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.588 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.591 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in eu.europa.ec.grow.espd.xml.response.selection.ServiceContractsPerformanceServicesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SetupEconomicOperatorResponseTest
+15:13:36.598 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.601 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in eu.europa.ec.grow.espd.xml.response.selection.SetupEconomicOperatorResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SpecificAverageTurnoverResponseTest
+15:13:36.608 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.612 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.615 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.618 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.621 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.623 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.626 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in eu.europa.ec.grow.espd.xml.response.selection.SpecificAverageTurnoverResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SpecificYearlyTurnoverResponseTest
+15:13:36.633 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.641 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.649 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.657 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.664 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.672 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.678 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.684 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.690 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec - in eu.europa.ec.grow.espd.xml.response.selection.SpecificYearlyTurnoverResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.StudyResearchFacilitiesResponseTest
+15:13:36.702 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.710 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.716 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.723 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:36.728 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.731 sec - in eu.europa.ec.grow.espd.xml.response.selection.StudyResearchFacilitiesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SubcontractingProportionResponseTest
+15:13:37.439 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.443 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in eu.europa.ec.grow.espd.xml.response.selection.SubcontractingProportionResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SupplyChainManagementResponseTest
+15:13:37.450 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.454 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.457 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.460 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.463 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in eu.europa.ec.grow.espd.xml.response.selection.SupplyChainManagementResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsCertificatesByQCResponseTest
+15:13:37.470 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.474 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.478 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.481 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.484 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.487 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsCertificatesByQCResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsPerformanceDeliveriesResponseTest
+15:13:37.493 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.498 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.502 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.506 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.510 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.513 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.516 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.519 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.522 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.525 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsPerformanceDeliveriesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsSamplesWithCAResponseTest
+15:13:37.532 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.536 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.539 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.543 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.546 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsSamplesWithCAResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsSamplesWithoutCAResponseTest
+15:13:37.552 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.556 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.561 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.567 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.573 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in eu.europa.ec.grow.espd.xml.response.selection.SupplyContractsSamplesWithoutCAResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.TechnicalFacilitiesResponseTest
+15:13:37.586 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.594 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.600 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.606 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.611 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in eu.europa.ec.grow.espd.xml.response.selection.TechnicalFacilitiesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.TechniciansTechnicalBodiesRequestTest
+15:13:37.624 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in eu.europa.ec.grow.espd.xml.response.selection.TechniciansTechnicalBodiesRequestTest
+Running eu.europa.ec.grow.espd.xml.response.selection.TechniciansTechnicalBodiesResponseTest
+15:13:37.638 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.646 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:37.652 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.216 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.219 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.582 sec - in eu.europa.ec.grow.espd.xml.response.selection.TechniciansTechnicalBodiesResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.ToolsPlantResponseTest
+15:13:38.226 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.230 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.233 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.236 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.239 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in eu.europa.ec.grow.espd.xml.response.selection.ToolsPlantResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.WorkContractsPerformanceWorksResponseTest
+15:13:38.246 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.250 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.254 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.259 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.263 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.266 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.269 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.273 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.276 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.279 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in eu.europa.ec.grow.espd.xml.response.selection.WorkContractsPerformanceWorksResponseTest
+Running eu.europa.ec.grow.espd.xml.response.selection.WorkContractsTechniciansRequestTest
+15:13:38.286 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in eu.europa.ec.grow.espd.xml.response.selection.WorkContractsTechniciansRequestTest
+Running eu.europa.ec.grow.espd.xml.response.selection.WorkContractsTechniciansResponseTest
+15:13:38.294 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.298 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.301 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.304 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+15:13:38.307 [main] WARN eu.europa.ec.grow.espd.xml.common.exporting.UblCriteriaTemplate - ESPD document with TED URL 'null' does not contain any exclusion criteria.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in eu.europa.ec.grow.espd.xml.response.selection.WorkContractsTechniciansResponseTest
+
+Results :
+
+Tests run: 931, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ espd-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [espd-web] in [C:\GitHub\ESPD-Service\espd-web\target\espd-web]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\GitHub\ESPD-Service\espd-web\src/main/resources/META-INF/resources/] to [C:\GitHub\ESPD-Service\espd-web\target\espd-web]
+[INFO] Copying webapp webResources [C:\GitHub\ESPD-Service\espd-web\src/main/resources/fonts] to [C:\GitHub\ESPD-Service\espd-web\target\espd-web]
+[INFO] Copying webapp resources [C:\GitHub\ESPD-Service\espd-web\src\main\webapp]
+[INFO] Webapp assembled in [23355 msecs]
+[INFO] Building war: C:\GitHub\ESPD-Service\espd-web\target\espd-web.war
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.1.RELEASE:repackage (default) @ espd-web ---
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building espd-docs 2018.11
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ espd-docs ---
+[INFO] Deleting C:\GitHub\ESPD-Service\espd-docs\target
+[INFO] 
+[INFO] --- asciidoctor-maven-plugin:1.5.2.1:process-asciidoc (asciidoc-techdocs-to-html) @ espd-docs ---
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\about.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\configuration.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\dataModel.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\espd.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\installation.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\license.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\overview.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\releaseNotes.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\requirements.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\testing.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\view.adoc
+[INFO] Rendered C:\GitHub\ESPD-Service\espd-docs\src\main\asciidoc\xmlChanges.adoc
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ espd-docs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\GitHub\ESPD-Service\espd-docs\src\main\resources
+[INFO] skip non existing resourceDirectory C:\GitHub\ESPD-Service\espd-docs\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ espd-docs ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ espd-docs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\GitHub\ESPD-Service\espd-docs\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ espd-docs ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ espd-docs ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ espd-docs ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\GitHub\ESPD-Service\espd-docs\target\espd-docs-2018.11.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ESPD web application ............................... SUCCESS [  0.185 s]
+[INFO] espd-web Maven Webapp .............................. SUCCESS [01:46 min]
+[INFO] espd-docs .......................................... SUCCESS [  6.215 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:53 min
+[INFO] Finished at: 2019-06-07T15:14:18+02:00
+[INFO] Final Memory: 49M/213M
+[INFO] ------------------------------------------------------------------------

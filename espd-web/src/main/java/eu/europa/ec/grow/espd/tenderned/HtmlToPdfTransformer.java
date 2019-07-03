@@ -78,7 +78,9 @@ public class HtmlToPdfTransformer {
         try {
             // Setup a buffer to obtain the content length (empirical initial size)
             ByteArrayOutputStream out = new ByteArrayOutputStream(html.length() / 6);
-
+            
+            //System.out.println("MR: html før generate PDF\n" + html);
+            
             // Setup FOP
             Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, out);
 

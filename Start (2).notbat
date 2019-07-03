@@ -1,0 +1,1 @@
+java -Xms768m -Xmx768m -jar -Dserver.port=80 -Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addresses=true C:\ESPD\espd-web.war >> c:/espd/espd.log
