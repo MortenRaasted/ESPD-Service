@@ -1,0 +1,4 @@
+
+views		C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\WEB-INF\views
+
+css og js	C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle
