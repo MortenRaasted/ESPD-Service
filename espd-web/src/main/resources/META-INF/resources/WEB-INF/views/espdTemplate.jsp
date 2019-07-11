@@ -27,8 +27,9 @@
 		
 		<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
 		<link rel="stylesheet" type="text/css" href="<s:url value="/static/bundle/all.css"/>">
-		<link rel="stylesheet" type="text/css" href="<s:url value="/static/bundle/andthensome.css"/>"> <!-- MR overriodes to all.css -->
+		<link rel="stylesheet" type="text/css" href="<s:url value="/static/bundle/andthensome.css"/>"> <!-- MR overrides to all.css -->
 		<script src="<s:url value="/static/bundle/all.js"/>"></script>
+		<script src="<s:url value="/static/bundle/andthensome.js"/>"></script> <!-- MR overrides to all.js -->
 		<script type="text/javascript" src="https://ec.europa.eu/wel/surveys/wr_survey01/wr_survey.js"></script>
 		
 		<s:eval var="ecertisCriterionURL" scope="page" expression="@espdConfiguration.ecertisCriterionURL" />

@@ -21,6 +21,25 @@
             }
         });
     });
+/*
+	MR: Andre sider udviser samme adfærd. Default svaret "nej" får lov at bestå.
+	$(document).ready(function() {
+		// Fjern flueben i de fire felter som Gertrud påpeger
+		$("input[type=radio]:checked").each(function() {
+			switch(this.name) {
+				case "procurementReserved.answer":
+				case "eoRegistered.answer":
+				case "eoRegistered.booleanValue3":
+				case "subcontractingThirdParties.answer":
+					$(this).prop('checked', false).removeAttr('checked');
+				default:
+					// alert(this.name);
+			} 
+			
+		})
+	})
+*/
+	
 </script>
 
 <div>

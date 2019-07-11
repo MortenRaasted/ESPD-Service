@@ -439,6 +439,8 @@ request.setAttribute("qualityAssuranceListEO", CriteriaTemplates.qualityAssuranc
 
 <script>
 	$(document).ready(function() {
+		$(':button[id^="add"]').remove(); 
+		$(':button[id^="remove"]').remove(); 
 		$('body').addClass('loaded');
 	});
 </script>
