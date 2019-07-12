@@ -168,3 +168,4 @@ local.properties
 .recommenders/
 
 espd-web/build/
+mvncleanpackage.txt

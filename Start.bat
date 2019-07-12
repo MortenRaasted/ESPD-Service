@@ -1,1 +1,1 @@
-java -Xms768m -Xmx768m -jar -Dserver.context-path=/espd -Dserver.port=8080 -Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addresses=true C:\GitHub\ESPD-Service\espd-web\target\espd-web.war > C:\GitHub\ESPD-Service\espd.log
+java -Xms768m -Xmx768m -jar -Dserver.context-path=/ -Dserver.port=8080 -Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addresses=true C:\GitHub\ESPD-Service\espd-web\target\espd-web.war > C:\GitHub\ESPD-Service\espd.log
