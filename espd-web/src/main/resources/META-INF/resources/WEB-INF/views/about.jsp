@@ -39,7 +39,7 @@
 <div class="row-fluid">
     <div class="col-lg-12">
         <div class="alert alert-success" role="alert">
-            Release notes <a href="http://espd.github.io/ESPD-Service/docs/html/releaseNotes.html" class="alert-link" target="_blank">can be found here</a>
+            This ESPD editor is based on version 2018.11 of <a href="https://github.com/ESPD/ESPD-Service" class="alert-link" target="_blank">https://github.com/ESPD/ESPD-Service</a><br>
         </div>
     </div>
 </div>
