@@ -3476,7 +3476,7 @@ wysihtml5.browser = (function() {
     },
 
     /**
-     * Whether the browser inserts a <br> when pressing enter in a contentEditable element
+     * Whether the browser inserts a <br /> when pressing enter in a contentEditable element
      */
     insertsLineBreaksOnReturn: function() {
       return isGecko;
@@ -3687,7 +3687,7 @@ wysihtml5.browser = (function() {
     },
     
     /**
-     * Opera needs a white space after a <br> in order to position the caret correctly
+     * Opera needs a white space after a <br /> in order to position the caret correctly
      */
     needsSpaceAfterLineBreak: function() {
       return isOpera;
@@ -4113,7 +4113,7 @@ wysihtml5.dom.contains = (function() {
  * @example
  *    <!-- Assume the following dom: -->
  *    <span id="pseudo-list">
- *      eminem<br>
+ *      eminem<br />
  *      dr. dre
  *      <div>50 Cent</div>
  *    </span>
@@ -4160,7 +4160,7 @@ wysihtml5.dom.convertToList = (function() {
         currentListItem,
         i;
     
-    // First find <br> at the end of inline elements and move them behind them
+    // First find <br /> at the end of inline elements and move them behind them
     for (i=0; i<lineBreaksLength; i++) {
       lineBreak = lineBreaks[i];
       while ((parentNode = lineBreak.parentNode) && parentNode !== element && parentNode.lastChild === lineBreak) {
@@ -4718,7 +4718,7 @@ wysihtml5.dom.observe = function(element, eventNames, handler) {
  *    wysihtml5.dom.parse(userHTML);
  *    // => '<span><span><span><span>I'm a table!</span></span></span></span>'
  *
- *    var userHTML = '<div>foobar<br>foobar</div>';
+ *    var userHTML = '<div>foobar<br />foobar</div>';
  *    wysihtml5.dom.parse(userHTML, {
  *      tags: {
  *        div: undefined,
@@ -5237,9 +5237,9 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
  *    </script>
  *
  *    <!-- Will result in: -->
- *    eminem<br>
- *    dr. dre<br>
- *    50 Cent<br>
+ *    eminem<br />
+ *    dr. dre<br />
+ *    50 Cent<br />
  */
 (function(dom) {
   function _isBlockElement(node) {
@@ -5801,7 +5801,7 @@ wysihtml5.quirks.cleanPastedHTML = (function() {
  * Some browsers don't insert line breaks when hitting return in a contentEditable element
  *    - Opera & IE insert new <p> on return
  *    - Chrome & Safari insert new <div> on return
- *    - Firefox inserts <br> on return (yippie!)
+ *    - Firefox inserts <br /> on return (yippie!)
  *
  * @param {Element} element
  *
@@ -7080,7 +7080,7 @@ wysihtml5.Commands = Base.extend(
 
   /**
    * Adds line breaks before and after the given node if the previous and next siblings
-   * aren't already causing a visual line break (block element or <br>)
+   * aren't already causing a visual line break (block element or <br />)
    */
   function _addLineBreakBeforeAndAfter(node) {
     var doc             = node.ownerDocument,
@@ -7123,7 +7123,7 @@ wysihtml5.Commands = Base.extend(
 
   /**
    * Checks whether the elment causes a visual line break
-   * (<br> or block elements)
+   * (<br /> or block elements)
    */
   function _isLineBreakOrBlockElement(element) {
     if (_isLineBreak(element)) {
@@ -7468,7 +7468,7 @@ wysihtml5.Commands = Base.extend(
   };
 })(wysihtml5);(function(wysihtml5) {
   var undef,
-      LINE_BREAK = "<br>" + (wysihtml5.browser.needsSpaceAfterLineBreak() ? " " : "");
+      LINE_BREAK = "<br />" + (wysihtml5.browser.needsSpaceAfterLineBreak() ? " " : "");
   
   wysihtml5.commands.insertLineBreak = {
     exec: function(composer, command) {
@@ -7512,7 +7512,7 @@ wysihtml5.Commands = Base.extend(
         // Unwrap list
         // <ol><li>foo</li><li>bar</li></ol>
         // becomes:
-        // foo<br>bar<br>
+        // foo<br />bar<br />
         composer.selection.executeAndRestoreSimple(function() {
           wysihtml5.dom.resolveList(list);
         });
@@ -7569,7 +7569,7 @@ wysihtml5.Commands = Base.extend(
         // Unwrap list
         // <ul><li>foo</li><li>bar</li></ul>
         // becomes:
-        // foo<br>bar<br>
+        // foo<br />bar<br />
         composer.selection.executeAndRestoreSimple(function() {
           wysihtml5.dom.resolveList(list);
         });
@@ -7928,7 +7928,7 @@ wysihtml5.views.View = Base.extend(
     name: "composer",
 
     // Needed for firefox in order to display a proper caret in an empty contentEditable
-    CARET_HACK: "<br>",
+    CARET_HACK: "<br />",
 
     constructor: function(parent, textareaElement, config) {
       this.base(parent, textareaElement, config);

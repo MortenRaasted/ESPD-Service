@@ -183,13 +183,13 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
                 $group.removeClass($.fn.editableform.errorGroupClass);
                 $block.removeClass($.fn.editableform.errorBlockClass).empty().hide(); 
             } else {
-                //convert newline to <br> for more pretty error display
+                //convert newline to <br /> for more pretty error display
                 if(msg) {
                     lines = (''+msg).split('\n');
                     for (var i = 0; i < lines.length; i++) {
                         lines[i] = $('<div>').text(lines[i]).html();
                     }
-                    msg = lines.join('<br>');
+                    msg = lines.join('<br />');
                 }
                 $group.addClass($.fn.editableform.errorGroupClass);
                 $block.addClass($.fn.editableform.errorBlockClass).html(msg).show();
@@ -889,9 +889,9 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
 }(window.jQuery));
 
 /**
-Attaches stand-alone container with editable-form to HTML element. Element is used only for positioning, value is not stored anywhere.<br>
-This method applied internally in <code>$().editable()</code>. You should subscribe on it's events (save / cancel) to get profit of it.<br>
-Final realization can be different: bootstrap-popover, jqueryui-tooltip, poshytip, inline-div. It depends on which js file you include.<br>
+Attaches stand-alone container with editable-form to HTML element. Element is used only for positioning, value is not stored anywhere.<br />
+This method applied internally in <code>$().editable()</code>. You should subscribe on it's events (save / cancel) to get profit of it.<br />
+Final realization can be different: bootstrap-popover, jqueryui-tooltip, poshytip, inline-div. It depends on which js file you include.<br />
 Applied as jQuery method.
 
 @class editableContainer
@@ -1745,7 +1745,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
             } else {
                 //detect empty
                 //for some inputs we need more smart check
-                //e.g. wysihtml5 may have <br>, <p></p>, <img>
+                //e.g. wysihtml5 may have <br />, <p></p>, <img>
                 if(typeof(this.input.isEmpty) === 'function') {
                     this.isEmpty = this.input.isEmpty(this.$element);                    
                 } else {
@@ -3059,7 +3059,7 @@ $(function(){
                 for (var i = 0; i < lines.length; i++) {
                     lines[i] = $('<div>').text(lines[i]).html();
                 }
-                html = lines.join('<br>');
+                html = lines.join('<br />');
             }
             $(element).html(html);
         },
@@ -3075,7 +3075,7 @@ $(function(){
                 var text = $('<div>').html(lines[i]).text();
 
                 // Remove newline characters (\n) to avoid them being converted by value2html() method
-                // thus adding extra <br> tags
+                // thus adding extra <br /> tags
                 text = text.replace(regex, '');
 
                 lines[i] = text;
@@ -3328,7 +3328,7 @@ $(function(){
                    var text = escape ? $.fn.editableutils.escape(v.text) : v.text; 
                    html.push(text); 
                });
-               $(element).html(html.join('<br>'));
+               $(element).html(html.join('<br />'));
            } else {
                $(element).empty(); 
            }
@@ -4576,7 +4576,7 @@ $(function(){
         **/         
         inputclass: null,
         /**
-        Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+        Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br />
         See list of tokens in [momentjs docs](http://momentjs.com/docs/#/parsing/string-format)  
         
         @property format 
@@ -6352,7 +6352,7 @@ $(function(){
         **/
         inputclass: null,
         /**
-        Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+        Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br />
         Possible tokens are: <code>d, dd, m, mm, yy, yyyy</code>  
 
         @property format 
@@ -6684,7 +6684,7 @@ $(function(){
         **/
         inputclass: null,
         /**
-        Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+        Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br />
         Possible tokens are: <code>d, dd, m, mm, yy, yyyy, h, i</code>  
         
         @property format 

@@ -67,6 +67,11 @@ public class TedService {
         }
 
         log.info("--- Calling TED  with reception id: '{}'.", receptionId);
+        log.info("--- Ted url : '{}'.", tedUrl);
+		log.info("--- Ted user : '{}'.", tedUser);
+		log.info("--- Ted pasword : '{}'.", tedPassword);
+		log.info("--- Ted receptionId: '{}'.",receptionId);
+		log.info(String.format("%s/%s/noticeInformation", tedUrl, receptionId));
         try {
             HttpEntity<String> request = new HttpEntity<>(createHeaders(tedUser, tedPassword));
             ResponseEntity<TedResponse> response = restTemplate

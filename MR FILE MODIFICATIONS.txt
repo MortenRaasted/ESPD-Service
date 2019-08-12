@@ -1,0 +1,74 @@
+Replacing  <head /> with <head></head> in EspdController.java
+og så tilsyneladende en glemt <div> i html som bliver reddet i sidste øjeblik... hmmmmmm!
+
+	String a = "<html><head></head><body>" + newHtml + "</div></body></html>"
+
+
+		
+
+Replacing <br> with <br /> in these files
+Search "<br>" (54 hits in 10 files)
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\static\bootstrap-plugins\x-editable\bootstrap3-editable\js\bootstrap-editable.js (12 hits)
+	Line 186:                 //convert newline to <br> for more pretty error display
+	Line 192:                     msg = lines.join('<br>');
+	Line 892: Attaches stand-alone container with editable-form to HTML element. Element is used only for positioning, value is not stored anywhere.<br>
+	Line 893: This method applied internally in <code>$().editable()</code>. You should subscribe on it's events (save / cancel) to get profit of it.<br>
+	Line 894: Final realization can be different: bootstrap-popover, jqueryui-tooltip, poshytip, inline-div. It depends on which js file you include.<br>
+	Line 1748:                 //e.g. wysihtml5 may have <br>, <p></p>, <img>
+	Line 3062:                 html = lines.join('<br>');
+	Line 3078:                 // thus adding extra <br> tags
+	Line 3331:                $(element).html(html.join('<br>'));
+	Line 4579:         Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+	Line 6355:         Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+	Line 6687:         Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\static\bootstrap-plugins\x-editable\bootstrap3-editable\js\bootstrap-editable.min.js (2 hits)
+	Line 5: !function(a){"use strict";var b=function(b,c){this.options=a.extend({},a.fn.editableform.defaults,c),this.$div=a(b),this.options.scope||(this.options.scope=this)};b.prototype={constructor:b,initInput:function(){this.input=this.options.input,this.value=this.input.str2value(this.options.value),this.input.prerender()},initTemplate:function(){this.$form=a(a.fn.editableform.template)},initButtons:function(){var b=this.$form.find(".editable-buttons");b.append(a.fn.editableform.buttons),"bottom"===this.options.showbuttons&&b.addClass("editable-buttons-bottom")},render:function(){this.$loading=a(a.fn.editableform.loading),this.$div.empty().append(this.$loading),this.initTemplate(),this.options.showbuttons?this.initButtons():this.$form.find(".editable-buttons").remove(),this.showLoading(),this.isSaving=!1,this.$div.triggerHandler("rendering"),this.initInput(),this.$form.find("div.editable-input").append(this.input.$tpl),this.$div.append(this.$form),a.when(this.input.render()).then(a.proxy(function(){if(...
+	Line 5: !function(a){"use strict";var b=function(b,c){this.options=a.extend({},a.fn.editableform.defaults,c),this.$div=a(b),this.options.scope||(this.options.scope=this)};b.prototype={constructor:b,initInput:function(){this.input=this.options.input,this.value=this.input.str2value(this.options.value),this.input.prerender()},initTemplate:function(){this.$form=a(a.fn.editableform.template)},initButtons:function(){var b=this.$form.find(".editable-buttons");b.append(a.fn.editableform.buttons),"bottom"===this.options.showbuttons&&b.addClass("editable-buttons-bottom")},render:function(){this.$loading=a(a.fn.editableform.loading),this.$div.empty().append(this.$loading),this.initTemplate(),this.options.showbuttons?this.initButtons():this.$form.find(".editable-buttons").remove(),this.showLoading(),this.isSaving=!1,this.$div.triggerHandler("rendering"),this.initInput(),this.$form.find("div.editable-input").append(this.input.$tpl),this.$div.append(this.$form),a.when(this.input.render()).then(a.proxy(function(){if(...
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\static\bootstrap-plugins\x-editable\CHANGELOG.txt (1 hit)
+	Line 129: [enh] convert newlines to <br> in error message for more pretty display (vitalets)
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\static\bootstrap-plugins\x-editable\inputs-ext\wysihtml5\bootstrap-wysihtml5-0.0.2\wysihtml5-0.3.0.js (17 hits)
+	Line 3479:      * Whether the browser inserts a <br> when pressing enter in a contentEditable element
+	Line 3690:      * Opera needs a white space after a <br> in order to position the caret correctly
+	Line 4116:  *      eminem<br>
+	Line 4163:     // First find <br> at the end of inline elements and move them behind them
+	Line 4721:  *    var userHTML = '<div>foobar<br>foobar</div>';
+	Line 5240:  *    eminem<br>
+	Line 5241:  *    dr. dre<br>
+	Line 5242:  *    50 Cent<br>
+	Line 5804:  *    - Firefox inserts <br> on return (yippie!)
+	Line 7083:    * aren't already causing a visual line break (block element or <br>)
+	Line 7126:    * (<br> or block elements)
+	Line 7471:       LINE_BREAK = "<br>" + (wysihtml5.browser.needsSpaceAfterLineBreak() ? " " : "");
+	Line 7515:         // foo<br>bar<br>
+	Line 7515:         // foo<br>bar<br>
+	Line 7572:         // foo<br>bar<br>
+	Line 7572:         // foo<br>bar<br>
+	Line 7931:     CARET_HACK: "<br>",
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\static\bootstrap-plugins\x-editable\inputs-ext\wysihtml5\bootstrap-wysihtml5-0.0.2\wysihtml5-0.3.0.min.js (2 hits)
+	Line 201: (function(b){var c="<br>"+(b.browser.needsSpaceAfterLineBreak()?" ":"");b.commands.insertLineBreak={exec:function(a,d){a.commands.support(d)?(a.doc.execCommand(d,!1,null),b.browser.autoScrollsToCaret()||a.selection.scrollIntoView()):a.commands.exec("insertHTML",c)},state:function(){return!1},value:function(){}}})(wysihtml5);
+	Line 216: (function(b){var c=b.dom,a=b.browser;b.views.Composer=b.views.View.extend({name:"composer",CARET_HACK:"<br>",constructor:function(a,b,c){this.base(a,b,c);this.textarea=this.parent.textarea;this._initSandbox()},clear:function(){this.element.innerHTML=a.displaysCaretInEmptyContentEditableCorrectly()?"":this.CARET_HACK},getValue:function(a){var c=this.isEmpty()?"":b.quirks.getCorrectInnerHTML(this.element);a&&(c=this.parent.parse(c));return c=b.lang.string(c).replace(b.INVISIBLE_SPACE).by("")},setValue:function(a,
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\static\bootstrap-plugins\x-editable\inputs-ext\wysihtml5\wysihtml5.js (4 hits)
+	Line 66:              The only solution I found is to add <br>. If you fine better way, please send PR.   
+	Line 70:                 this.$input.before('<br><br>'); 
+	Line 70:                 this.$input.before('<br><br>'); 
+	Line 98:                 //e.g. '<img>', '<br>', '<p></p>'
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\WEB-INF\views\about.jsp (1 hit)
+	Line 42:             This ESPD editor is based on version 2018.11 of <a href="https://github.com/ESPD/ESPD-Service" class="alert-link" target="_blank">https://github.com/ESPD/ESPD-Service</a><br>
+  C:\GitHub\ESPD-Service\espd-web\src\main\resources\META-INF\resources\WEB-INF\views\criteriaTemplates\common\availableElectronically.jsp (1 hit)
+	Line 12:         </span><br>
+  C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle\all.js (2 hits)
+	Line 2: !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=a.document,m="2.1.3",n=function(a,b){return new n.fn.init(a,b)},o=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,p=/^-ms-/,q=/-([\da-z])/gi,r=function(a,b){return b.toUpperCase()};n.fn=n.prototype={jquery:m,constructor:n,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=n.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return n.each(this,a,b)},map:function(a){return this.pushStack(n.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,argumen...
+	Line 2: !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=a.document,m="2.1.3",n=function(a,b){return new n.fn.init(a,b)},o=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,p=/^-ms-/,q=/-([\da-z])/gi,r=function(a,b){return b.toUpperCase()};n.fn=n.prototype={jquery:m,constructor:n,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=n.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return n.each(this,a,b)},map:function(a){return this.pushStack(n.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,argumen...
+  C:\GitHub\ESPD-Service\espd-web\src\main\webapp\static\bundle\debug.js (12 hits)
+	Line 11507:                 //convert newline to <br> for more pretty error display
+	Line 11513:                     msg = lines.join('<br>');
+	Line 12213: Attaches stand-alone container with editable-form to HTML element. Element is used only for positioning, value is not stored anywhere.<br>
+	Line 12214: This method applied internally in <code>$().editable()</code>. You should subscribe on it's events (save / cancel) to get profit of it.<br>
+	Line 12215: Final realization can be different: bootstrap-popover, jqueryui-tooltip, poshytip, inline-div. It depends on which js file you include.<br>
+	Line 13069:                 //e.g. wysihtml5 may have <br>, <p></p>, <img>
+	Line 14383:                 html = lines.join('<br>');
+	Line 14399:                 // thus adding extra <br> tags
+	Line 14652:                $(element).html(html.join('<br>'));
+	Line 15900:         Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+	Line 17676:         Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>
+	Line 18008:         Format used for sending value to server. Also applied when converting date from <code>data-value</code> attribute.<br>

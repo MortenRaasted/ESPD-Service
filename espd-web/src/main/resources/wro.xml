@@ -31,6 +31,7 @@
         <css minimize="false">/static/bootstrap-plugins/bootstrap-toggle-master/css/bootstrap-toggle.min.css</css>
         <css minimize="true">/static/css/espd.css</css>
         <css minimize="true">/static/css/nav-wizard.bootstrap.css</css>
+		<css minimize="true">/static/css/andthensome.css</css>
 
         <js minimize="false">/static/jquery/jquery.min.js</js>
         <js minimize="false">/static/bootstrap-3.2.0/js/bootstrap.min.js</js>
@@ -39,7 +40,8 @@
         <js minimize="false">/static/jquery-plugins/validate/additional-methods.min.js</js>
 	<js minimize="false">/static/bootstrap-plugins/bootstrap-toggle-master/js/bootstrap-toggle.min.js</js>
         <js minimize="false">/static/jquery-plugins/inputmask/min/jquery.inputmask.bundle.min.js</js>
-        <js minimize="true">/static/js/init.js</js>
+        <js minimize="false">/static/js/init.js</js>
+		<js minimize="false">/static/js/andthensome.js</js>
 	<js minimize="false">/static/piwik.js</js>
 <!--
         <js minimize="false">https://webanalytics.ec.europa.eu/piwik.js</js>

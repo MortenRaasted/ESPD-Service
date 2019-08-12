@@ -1,0 +1,78 @@
+#header{
+	min-height:60px;
+	background-color:#009de0;
+	line-height:1.4;
+}
+#banner-flag{
+	width:120px!important;
+	height:26px!important;
+	left:21px;
+	top:14px;
+	color:#000;
+}
+
+#banner-title-text{
+	top:13px;
+	left:160px;
+	color:#FFF;
+	font-size:150%;
+}
+#banner-env-text{
+	color:#009de0;
+	font-size:170%;
+}
+#banner-sub-title-text{
+	display:none;
+	color:#fff;
+	font-size:170%;
+}
+#banner-image-title-fill{
+	min-height:60px;
+	background-url:none;
+}
+#banner-image-title{
+	height:60px;
+}
+
+#breadbar {
+	display:none;
+}
+
+#top-lang-selector{
+	top:18px;
+}
+#top-lang-selector li{
+	
+}
+
+.splashLangDiv a{
+	color:#009de0
+}
+.splashLangDiv a:hover{
+	color:#074A8B;
+	font-weight:bold;
+}
+
+a.splashLangBox{
+	background-color:#009de0;
+	border:2px solid #009de0;
+	color:#fff;
+}
+.splashLangBox:hover{
+	background-color:#d7e1eb;
+	border:2px solid #009de0;
+	color:#009de0;
+}
+
+#header a{
+	color:#fff;
+	text-decoration:none}
+
+#header a:hover,#header a:focus{
+	color:#fff;
+	text-decoration:underline
+}
+
+.nav-pills.nav-wizard > li.active .nav-arrow{border-color:transparent transparent transparent #009de0;}
+.nav-pills.nav-wizard > li.active .nav-wedge{border-color:#009de0 #009de0 #009de0 transparent;}
+.nav-pills.nav-wizard > li.active a{background-color:#009de0;color:white;}

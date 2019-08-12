@@ -445,7 +445,9 @@ class EspdController {
      */
     private String addHtmlHeader(String html) {
         String newHtml = UnescapeHtml4.unescapeHtml4(html);
-        return "<html><head/><body>" + newHtml + "</div></body></html>";
+		// MR: tilsnýneladende en glemt <div> i html som bliver reddet i sidste øjeblik... hmmmmmm!
+		String a = "<html><head></head><body>" + newHtml + "</div></body></html>";
+		return a;
     }
 
     @RequestMapping("/initialization")
