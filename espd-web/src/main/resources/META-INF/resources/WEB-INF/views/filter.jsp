@@ -239,6 +239,8 @@
 								data-toggle="tooltip"
 								title="${i18n['tooltip_ca_can_create_espd']}"></span>
 						</div>
+						
+<!-- MR: Fjerne TED fra filter page (første side)
 						<div class="col-md-5">
 							<form:input path="tedReceptionId" id="tedReceptionId"
 								cssClass="form-control small"
@@ -250,6 +252,7 @@
 							<span data-i18n="tooltip_ted_reception_id" data-toggle="tooltip"
 								title="${i18n['tooltip_ted_reception_id']}"></span>
 						</div>
+-->
 					</div>
 					<div class="row">
 						<div class="radio col-md-3">

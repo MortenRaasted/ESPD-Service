@@ -20,6 +20,16 @@
                 $('#tedUrlLink').text("");
             }
         });
+
+		$('#procedureType').change(function () {
+            if ($(this).val()) {
+				$("#proceduretypeunfilled").css("color","white");
+			} 
+			else 
+			{
+			    $("#proceduretypeunfilled").css("color","red");
+			}
+        });
     });
 /*
 	MR: Andre sider udviser samme adfærd. Default svaret "nej" får lov at bestå.
@@ -128,7 +138,7 @@
     <div id="ppdiv" class="panel-body collapse in">
         <div class="col-md-12">
             <div class="form-group">
-                <label class="control-label col-md-4">${span18n['type_of_procedure']}</label>
+                <label class="control-label col-md-4"><span style="color:red;" id="proceduretypeunfilled" title="Remember to select the procedure type!" >NB! => </span>${span18n['type_of_procedure']}</label>
                 <div class="col-md-8">
                     <form:select path="procedureType" cssClass="form-control">
 					    <form:option value="" label="${i18n['type_of_procedure_none']}" data-i18n="type_of_procedure_none"/>
